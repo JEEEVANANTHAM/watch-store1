@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchHub - Products</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">WatchHub</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <!-- Products Section -->
+    <section class="products-list">
+        <h2>Our Watches</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="images/hero1.jpg" alt="Luxury Watch">
+                <h3>Luxury Watch</h3>
+                <p>$199</p>
+                <button onclick="addToCart('Luxury Watch', 199)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/hero2.jpg" alt="Classic Watch">
+                <h3>Classic Watch</h3>
+                <p>$149</p>
+                <button onclick="addToCart('Classic Watch', 149)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/hero3.jpg" alt="Sport Watch">
+                <h3>Sport Watch</h3>
+                <p>$129</p>
+                <button onclick="addToCart('Sport Watch', 129)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/hero4.jpg" alt="Digital Watch">
+                <h3>Digital Watch</h3>
+                <p>$99</p>
+                <button onclick="addToCart('Digital Watch', 99)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 WatchHub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

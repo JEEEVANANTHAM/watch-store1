@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WatchHub - Product Details</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">WatchHub</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <!-- Product Details Section -->
+    <section class="product-details">
+        <div class="product-image">
+            <img src="images/hero1.jpg" alt="Luxury Watch">
+        </div>
+        <div class="details">
+            <h2>Luxury Watch</h2>
+            <p>High-quality luxury watch with leather strap and stainless steel body. Perfect for formal and casual occasions.</p>
+            <p class="price">Price: $199</p>
+            <button onclick="addToCart('Luxury Watch', 199)">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Related Products (Optional) -->
+    <section class="related-products">
+        <h3>Related Watches</h3>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="images/hero2.jpg" alt="Classic Watch">
+                <h4>Classic Watch</h4>
+                <p>$149</p>
+                <a href="product-details.html">View Details</a>
+            </div>
+            <div class="product-card">
+                <img src="images/hero3.jpg" alt="Sport Watch">
+                <h4>Sport Watch</h4>
+                <p>$129</p>
+                <a href="product-details.html">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 WatchHub. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
